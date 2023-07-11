@@ -1,0 +1,254 @@
+/* Tablet -> Desktop 사이 공백
+@media (min-width: 1025px) and (max-width: 1200px) {
+  body {display: none;}
+}
+/* mobil -> Tablet사이 공백
+@media (min-width: 310px) and (max-width: 768px) {
+  body {display: none;}
+} */
+
+@media (min-width: 501px) and (max-width: 600px) {
+  body {display: none;}}
+
+/******************** 1024px tablet *******************************/
+
+@media(max-width: 1024px){
+  .side_wrap {
+    padding: 20px 0;
+}
+  .item {
+    width: 31vw;
+  }
+  .footer_txt {
+    padding: 30px;
+  }
+  .footer_img_wrap {
+    right: -410px;
+    bottom: 290px;
+  }
+  footer {
+    height: none;
+  }
+  .footer_below_txt_wrap {
+    padding: 0 50px;
+    bottom: 320px;
+  }
+  .sec1_title {
+    display: none;
+  }
+  .text_wrap {
+    bottom: 57px;
+    width: 300px;
+  }
+  
+}
+
+
+/******************** 769px tablet *******************************/
+
+@media(max-width: 1024px){
+  .main_h2 {
+  font-size: 30px;
+}
+.sec1_wrap {
+  display: block;
+}
+.sec1_right_wrap{
+  padding: 0 30px;
+}
+.sec1_list_skill {
+  margin-left: 0;
+}
+.footer_img_wrap {
+  width: 300px;
+  height: 300px;
+}
+.footer_title {
+  font-size: 50px;
+}
+.footer_h4 {
+  font-size: 30px;
+}
+.tags-cloud > .tag {
+  font-size: 2vmin;
+}
+.footer_below_txt_wrap {
+  padding: 60px 50px;
+}
+}
+
+
+/******************** 500px mobil *******************************/
+
+
+@media(max-width: 500px){
+  .main_h2 {
+  font-size: 30px;
+}
+header {
+  height: 480px;
+}
+.sec1_wrap {
+  display: block;
+}
+.visual {
+  height: 100%
+}
+.visual_img {
+  height: 100%;
+}
+video  {
+  height: 100%;
+  object-fit: cover;
+}
+.sec1_right_wrap{
+  padding: 0 30px;
+}
+.sec1_list_skill {
+  margin-left: 0;
+}
+.footer_img_wrap {
+  width: 300px;
+  height: 300px;
+}
+.footer_title {
+  font-size: 50px;
+}
+.footer_h4 {
+  font-size: 30px;
+}
+.tags-cloud > .tag {
+  font-size: 2vmin;
+}
+.footer_below_txt_wrap {
+  padding: 60px 50px;
+}
+.title_wrap {
+  display: none;
+}
+.icon_wrap {
+  display: none;
+}
+.nav_ul {
+  margin-right: 7px;
+}
+.nav_li {
+  margin-left: 20px;
+}
+.text_wrap  {
+  bottom: 17px;
+}
+.main_h2 {
+  font-size: 13px;
+}
+.main_h4 {
+  font-size: 10px;
+}
+.main_p {
+  font-size: 10px;
+  line-height: 14px;
+}
+.sec1_wrap {
+  border: 40px solid #FFDE00;
+}
+.skill_wrap {
+  padding-right: 0;
+  display: block;
+}
+.sec2_wrap {
+  row-gap: 0;
+  column-gap: 0px;
+  padding: 10px;
+}
+.sec2_all_wrap > h2 {
+  font-size: 23px;
+  margin-top: 10px;
+}
+.sec2_all_wrap > p {
+  font-size: 13px;
+  line-height: 15px;
+}
+.sec2_line {
+  display: none;
+}
+.sec2_txt_wrap  {
+  font-size: 15px;
+  line-height: 27px;
+}
+.more_btn {
+  padding: 4px 32px 7px;
+}
+.sec2_p > a {
+  position: relative;
+    bottom: -15px;
+}
+.sec3_title {
+  font-size: 23px;
+}
+.section3 {
+  margin-top: 200px;
+  padding: 10px
+}
+.sec3_p > p {
+  margin-left: 0;
+}
+.sec3_skill {
+  max-width: 20px;
+}
+.sec3_past  {
+  font-size: 12px;
+  margin-left: 0;
+}
+.more_btn {
+  margin-left: 0;
+}
+.sec4_title_wrap {
+  margin-left: 30px;
+}
+.sec4_img {
+  margin-top: -8px;
+  width: 63%;
+}
+.item {
+  height: 25vh;
+}
+.sec4_txt_sp {
+  font-size: 10px;
+}
+.footer_img_wrap {
+  display: none;
+}
+.footer_below_txt_wrap {
+  display: none;
+}
+}
+
+
+/******************** 310px mobil *******************************/
+
+@media(max-width: 400px){
+  aside {
+    display: none;
+  }
+.visual {
+  margin-left: 0;
+}
+nav {
+  justify-content: space-around;
+}
+.certificate_wrap, .skill_wrap, .aducation_wrap, .career_wrap {
+  display: block;
+}
+.sec1_list_data {
+  margin-left: 0;
+}
+.certificate, .skill, .aducation, .career {
+  margin-bottom: 40px;
+}
+.sec2_all_wrap {
+  margin-bottom: 50px;
+}
+.f_wrap {
+  max-width: 400px;
+}
+}
