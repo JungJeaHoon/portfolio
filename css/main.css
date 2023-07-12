@@ -19,6 +19,44 @@ a {
     cursor: pointer;
 }
 
+
+/************************ topBtn ***********************************/
+
+
+
+
+
+
+#backtotop{
+    width:100px;
+    height:100px;    
+    position: fixed;
+    bottom: 60px;
+    right:60px;
+    transition-property: background-color, opacity, visibility;
+    transition-duration: 0.3s, 0.5s, 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;}
+
+
+ /* top icon 스크롤 옵션 */ 
+#backtotop:after{
+    line-height: 40px;
+    }
+
+#backtotop.show{
+    opacity:1;
+    visibility:visible;
+    }
+    #backtotop > img {
+        width: 100%;
+    }
+
+
+
+
+
 /************************ header ***********************************/
 
 
