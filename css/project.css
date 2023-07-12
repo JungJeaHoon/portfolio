@@ -77,7 +77,14 @@ a {
 .card-btn:hover  {
     filter: brightness(0.9);
     border-radius: 16px;
+    /* transform: scale(1.1); */
+}
+.card-btn > img {
+    transition: 0.3s ease-out;
+}
+.card-btn > img:hover {
     transform: scale(1.1);
+    
 }
 .card-btn:hover .hover_title {
     display: block;
@@ -115,7 +122,7 @@ a {
 } 
 
 .box_wrap {
-    height: 500px;
+    height: 410px;
     padding: 100px 50px;
     display: grid;    
     grid-template-columns: repeat(4, 1fr);

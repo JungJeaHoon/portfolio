@@ -39,6 +39,7 @@ aside {
     font-size: 35px;
 }
 .title_wrap {
+    padding-left: 120px;
     transform: rotate(271deg);
 }
 .title_wrap > h2 {
